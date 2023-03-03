@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #fff;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.wrapper {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+}
+.indicators{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.indicators div{
+    position: absolute;
+    width: 2px;
+    height: 9px;
+    background: #404040;
+}
+
+.indicators div:nth-child(1){
+    transform: rotate(30deg) translateY(-110px);
+}
+
+/*.indicators div:nth-child(1)::after{*/
+/*    position: absolute;*/
+/*    content: '5';*/
+/*    transform: rotate(-28deg) translate(-2px, -30px);*/
+/*    color: #e95949;*/
+/*}*/
+
+.indicators div:nth-child(2){
+    transform: rotate(60deg) translateY(-110px);
+}
+
+.indicators div:nth-child(3){
+    width: 4px;
+    height: 20px;
+    transform: rotate(90deg) translateX(-7px) translateY(-110px);
+}
+
+.indicators div:nth-child(4){
+    transform: rotate(120deg) translateY(-110px);
+}
+
+.indicators div:nth-child(5){
+    transform: rotate(150deg) translateY(-110px);
+}
+
+.indicators div:nth-child(6){
+    width: 4px;
+    height: 20px;
+    transform: rotate(180deg) translateX(0px) translateY(-110px);
+}
+
+.indicators div:nth-child(7){
+    transform: rotate(210deg) translateY(-110px);
+}
+
+.indicators div:nth-child(8){
+    transform: rotate(240deg) translateY(-110px);
+}
+
+.indicators div:nth-child(9){
+    width: 4px;
+    height: 20px;
+    transform: rotate(270deg) translateX(5px) translateY(-110px);
+}
+
+.indicators div:nth-child(10){
+    transform: rotate(300deg) translateY(-110px);
+}
+
+.indicators div:nth-child(11){
+    transform: rotate(330deg) translateY(-110px);
+}
+
+.indicators div:nth-child(12){
+    width: 4px;
+    height: 20px;
+    transform: rotate(360deg) translateX(0px) translateY(-110px);
+}
+
+.circle{
+    position: absolute;
+    background-color: #fff;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.down{
+    position: absolute;
+    background-color: #e95949;
+    /*transform: translateY(0px);*/
+    /*border: 1px solid #fff;*/
+    /*border-radius: 50%;*/
+    width: 210px;
+    height: 210px;
+}
+
+p#countdown{
+    position: absolute;
+    /*color: #747474;*/
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 115px;
+}
+
+.buttons button{
+    margin-top: 25px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.buttons button:nth-child(1){
+    background: #e95949;
+}
+
+.buttons button:nth-child(2){
+    background: #3498db;
+}
+
+button i{
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+}
