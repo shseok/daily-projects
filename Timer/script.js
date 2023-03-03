@@ -51,7 +51,7 @@ $playBtn.addEventListener('click', (e) => {
         icon.classList.replace('fa-play', 'fa-pause');
         $playBtn.style.background = "#e9e9e9";
         $playBtn.querySelector('i').style.color = '#e95949';
-        intervalID = setInterval(updateCountdown, 100);
+        intervalID = setInterval(updateCountdown, 1000);
     }else if(iconClassList.includes('fa-pause')){
         stopCountdown();
         $playBtn.style.background = "#e95949";
