@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "productName": "나이키",
+      "price": 1
+    },
+    {
+      "productName": "아디다스",
+      "price": 2
+    },
+    {
+      "productName": "라코스테",
+      "price": 3
+    },
+    {
+      "productName": "스투시",
+      "price": 4
+    },
+    {
+      "productName": "뉴에라",
+      "price": 5
+    },
+    {
+      "productName": "폴햄",
+      "price": 6
+    },
+    {
+      "productName": "탑텐",
+      "price": 7
+    },
+    {
+      "productName": "아미",
+      "price": 8
+    },
+    {
+      "productName": "폴롤랄프로렌",
+      "price": 9
+    }
+  ]
+}
